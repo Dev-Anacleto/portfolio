@@ -3,10 +3,10 @@ var barra = document.querySelector('.barra-menu')
 
 function ativo(){
   if (barra.classList.contains('ativo')) {
-    menu.src='img_portfolio/menu.png'
+    menu.src='menu.png'
     barra.classList.remove('ativo')
   }else{
-    menu.src='img_portfolio/x.png'
+    menu.src='x.png'
   barra.classList.add('ativo')
   }
 }
